@@ -40,7 +40,7 @@ public class PlayerMovement : MonoBehaviour
 
 
         animator.SetFloat("PosX", 0);
-        animator.SetFloat("PosY", vInput * speed / 2.0f * WalkSpeed);
+        animator.SetFloat("PosZ", vInput * speed / 2.0f * WalkSpeed);
 
        
 
